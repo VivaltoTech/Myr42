@@ -1,4 +1,4 @@
-# Calculadora simple V1
+"""Calculadora simple V1"""
 
 print("Calculadora Simple V1 (para salir ingrese 'q' como operador)\n")
 
@@ -45,7 +45,7 @@ while True:
         resultado = num1 % num2
     elif operador == "**":
         resultado = num1 ** num2
-    else:   # No se reconoció al operador
+    else:  # No se reconoció al operador
         print("Operador inválido\n")
         continue
 
