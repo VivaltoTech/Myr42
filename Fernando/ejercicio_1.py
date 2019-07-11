@@ -5,8 +5,8 @@ Encontrar la de todos los múltiplos de 3 o 5 menores a 1000.
 """
 
 suma = 0
-for x in range(3,1000):
-    if x%3 == 0 or x%5 == 0:
+for x in range(3, 1000):
+    if x % 3 == 0 or x % 5 == 0:
         suma += x
 
 # Imprimo resultado sin formatear
