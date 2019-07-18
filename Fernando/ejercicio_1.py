@@ -9,7 +9,5 @@ for x in range(3, 1000):
     if x % 3 == 0 or x % 5 == 0:
         suma += x
 
-# Imprimo resultado sin formatear
-print("La suma es:", suma)
 # Imprimo resultado formateado para separar los miles
-print("La suma es: {0:,d}".format(suma))
+print(f"La suma es: {suma:,}")

@@ -8,7 +8,7 @@ los cuatro millones, encontrar la suma de todos los términos pares.
 """
 
 # Valor que no debe ser excedido
-limite = 4000000
+limite = 4_000_000
 # Variable para controlar si se quieren imprimir o no los términos de la serie
 imprimir = True
 
@@ -28,4 +28,4 @@ while a <= limite:
     a, b = b, a + b
 
 # Imprimo resultado formateado para separar los miles
-print("\nLa suma es: {0:,d}".format(suma))
+print(f"\nLa suma es: {suma:,}")
