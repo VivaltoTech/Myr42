@@ -121,6 +121,7 @@ for i in range(12):
             print(f"Mal resuelto!!! {i} {m} {bola_x} {mas_pesada}\n")
 
 
+# Parte interactiva
 # Pregunto qué bola será distinta
 bola_distinta = int(input("Ingrese el nro de bola que quiere que sea distinta (0 a 11): "))
 
@@ -141,5 +142,3 @@ if mas_pesada == True:
     print("La bola es más pesada.")
 else:
     print("La bola es más liviana.")
-
-#  print(f"Se requirieron {nro_pesadas} pesadas.")
