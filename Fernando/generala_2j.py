@@ -24,7 +24,9 @@ import random
 
 
 def tirada_completa():
-    """Función para realizar una tirada de dados completa para 1 jugador"""
+    """ Función para realizar una tirada de dados completa para 1 jugador.
+    Retorna la lista con los dados de la tirada final.
+    """
     dados = [0, 0, 0, 0, 0]
     tirar = "12345"
     nro_tirada = 1
